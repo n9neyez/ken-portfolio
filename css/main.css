@@ -38,6 +38,22 @@ main p {
 
 /******* END original --------------- ****/
 
+body .container header {
+    margin-top: 30px;
+}
+
+
+/********--------- nav START *******/
+nav {
+    margin-bottom: 50px;
+}
+
+#logo-main {
+    width: 12.5%;
+
+}
+
+
 /** form styles START
 
 Reset fieldset
@@ -76,22 +92,24 @@ textarea {
 #first-name {
     display: inline;
     float: left;
-    width: 46%;
+    width: 49%;
     border: 2px solid #001844;
+    height: 40px;
 }
 
 #last-name {
     display: inline;
     float: right;
-    width: 46%;
+    width: 49%;
     border: 2px solid #001844;
-
+    height: 40px;
 }
 
 #email,
 #subject {
     width: 100%;
     border: 2px solid #001844;
+    height: 40px;
 }
 
 #message {
@@ -119,7 +137,7 @@ textarea {
 .one-page-content {
     max-width: 100%;
     height: auto;
-    margin-bottom: 100px;
+    margin: 100px 0 100px 0;
 }
 
 /** ----- Let's Connect & Collab. heading
