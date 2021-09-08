@@ -1,0 +1,190 @@
+/** Main CSS for portfolio 
+
+    Any overrides are on purpose.
+**/
+
+/**** Initialize original CSS ******/
+
+/* fix alignment issue with boxes: text, buttons, etc... */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    /*margin: 20px 10%;*/
+    font-family: Verdana, Arial, Tahoma, sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 24px;
+    font: normal normal medium;
+
+}
+
+h2 {
+    font-size: 16px;
+    font: normal normal medium;
+}
+
+main p {
+    font-size: 14px;
+}
+
+.container {
+    margin: 0 10% 0 10%;
+}
+
+/******* END original --------------- ****/
+
+/** form styles START
+
+Reset fieldset
+    Set the textboxes and textarea width
+    Set Submit input size    
+  **/
+
+input {
+    margin: 0 auto;
+    display: block;
+}
+
+legend {
+    padding: 0;
+    display: table;
+}
+
+fieldset {
+    border: 0;
+    padding: 0.01em 0 0 0;
+    margin: 0;
+    min-width: 0;
+}
+
+body:not(:-moz-handler-blocked) fieldset {
+    display: table-cell;
+}
+
+#message-field input,
+textarea {
+    display: block;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+#first-name {
+    display: inline;
+    float: left;
+    width: 46%;
+    border: 2px solid #001844;
+}
+
+#last-name {
+    display: inline;
+    float: right;
+    width: 46%;
+    border: 2px solid #001844;
+
+}
+
+#email,
+#subject {
+    width: 100%;
+    border: 2px solid #001844;
+}
+
+#message {
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 50%;
+    border: 2px solid #001844;
+}
+
+/** Submit button for site **/
+.submit-btn {
+    width: 100%;
+    height: 50px;
+    background-color: #001844;
+    color: #fff;
+    border: none;
+    font-size: 24px;
+    box-shadow: -1px 3px 2px #00000029;
+    opacity: 1;
+}
+
+/** -------------- #Form styles END ----------------------- **/
+
+
+.one-page-content {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 100px;
+}
+
+/** ----- Let's Connect & Collab. heading
+---------**/
+.message-head h1 p {
+    font-size: 38px;
+}
+
+/* overlay for project image links */
+.img-project-select {
+    width: 100%;
+    height: 126px;
+    background: #001844 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/* back to top arrow and text */
+.back-top {
+    text-align: center;
+}
+
+/*** ------- footer START --------- ****/
+footer {
+    height: 70px;
+    width: 100%;
+    margin-top: 40px;
+    overflow: visible;
+    background: #001844;
+    color: #fff;
+    position: relative;
+}
+
+footer section {
+    display: inline;
+}
+
+/**** 
+        Selecting and setting the copyright and email
+        Use positioning to align to bottom of footer.
+***/
+/* copyright */
+footer section:nth-child(1) {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+/* email address */
+footer section:nth-child(2) {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+footer section em {
+    font-size: 10px;
+    float: left;
+    font-weight: 900;
+    font-style: normal;
+}
+
+footer section:nth-child(2) em {
+    text-align: right;
+    float: right;
+}
+
+/** ------------- footer END --------------- ******/
